@@ -1,0 +1,12 @@
+{
+  "name": "opencode-question-timeout",
+  "version": "0.1.0",
+  "description": "Let unanswered OpenCode V2 questions time out without implying user approval",
+  "type": "module",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test tests/*.test.mjs" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/balakumardev/opencode-question-timeout.git" },
+  "dependencies": { "@opencode/plugin": "2.0.18", "effect": "4.0.0-rc.112" }
+}
