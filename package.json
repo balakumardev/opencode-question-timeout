@@ -1,6 +1,6 @@
 {
   "name": "opencode-question-timeout",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Let unanswered OpenCode V2 questions time out without implying user approval",
   "type": "module",
   "exports": { ".": "./index.js" },
